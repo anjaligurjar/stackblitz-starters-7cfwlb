@@ -1,11 +1,11 @@
-import * as React from 'react';
-import * as Login from './Components/Login'
-import './style.css';
+import React from 'react'
 
-export default function App() {
+function Services() {
   return (
-    <div>
-      <Login />
-    </div>
-  );
+    <div>Services
+ <h1>services feature here </h1>
+ </div>
+  )
 }
+
+export default Services
